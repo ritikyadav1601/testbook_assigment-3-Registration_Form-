@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <fieldset>
+    <div>
+    <h1>Registration Form</h1>
+        <p>Enter your details below</p>
+        <form action="">
+            <input class="form" type="text" placeholder="Email">
+            <br><br>
+            <input class="form" type="password" placeholder="Password">
+            <br><br>
+            <b>!Type a complex password with 8-20 characters.</b>
+            <br><br>
+            <input type="number" class="form" placeholder="+91 Phone number">
+            <br><hr>
+            <b>Enter your profession:</b>
+            <br><br>
+            <input type="radio" class="form" name="profession" value="Student">Student
+            <input type="radio" class="form" name="profession" value="Teacher">Teacher
+            <input type="radio" class="form" name="profession" value="Developer">Developer
+             <br><br>
+             Choose the stage if you are (student)
+             <select name="student" id="">
+                <option value="First">First year</option>
+                <option value="Second">Second year</option>
+                <option value="Third">Third year</option>
+                <option value="Forth">Forth year</option>
+             </select>
+             <hr>
+             <div style="margin-left: 50px;"> Enter your birth date
+             <input type="date">
+             </div>
+             <hr>
+             <textarea class="form" name="Feedback" id="" cols="30" rows="1" placeholder="Any notes"></textarea>
+             <hr>
+             <button class="form" >Submit</button>
+             <button class="form">Reset</button>
+        </form>
+    </div>
+</fieldset>
+</body>
+</html>
